@@ -1,0 +1,24 @@
+{
+  "name": "web-auth",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Utility to set up a temporary server used for situations where you need to open up a browser from a command line, do something, and then close it on redirect - like an oauth flow...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbsa71/web-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbsa71/web-auth/issues"
+  },
+  "homepage": "https://github.com/lbsa71/web-auth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "open": "^7.0.0"
+  }
+}
